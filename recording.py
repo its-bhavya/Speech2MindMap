@@ -11,8 +11,8 @@ import sys
 
 import sounddevice as sd
 import soundfile as sf
-import numpy  # Make sure NumPy is loaded before it is used in the callback
-assert numpy  # avoid "imported but unused" message (W0611)
+import numpy  
+assert numpy  
 
 
 def int_or_str(text):
